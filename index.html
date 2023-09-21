@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo WebApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Entrer le nom d'une ville" spellcheck="false">
+            <button><img src="images/search.png" alt="Bouton de recherche"></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" alt="image du temps actuel" class="weather-icon">
+            <h1 class="temp">Undifined</h1>
+            <h2 class="city">Undifined</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidité">
+                    <div>
+                        <p class="humidity">N/A</p>
+                        <p>Humidité</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="vent">
+                    <div>
+                        <p class="wind">N/A</p>
+                        <p>Vitesse du vent</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/country.png" alt="logo planete" id="country-img">
+                    <div>
+                        <p class="country">N/A</p>
+                        <p>Code pays</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/direction.png" alt="degrès du vent" id="direction-img">
+                    <div>
+                        <p class="direction">N/A</p>
+                        <p>Degrés du vent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="country-user" >
+        <p>Localisation Utilisateur</p>
+    </div>
+    <footer>
+        <p>
+            Created with &#128152 by
+            <a target="_blank" href="https://github.com/consoleLogUser">ConsoleLogUser</a>
+            
+        </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
